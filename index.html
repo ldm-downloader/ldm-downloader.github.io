@@ -134,7 +134,7 @@
         </a>
         <a class="button secondary" href="https://github.com/adiashishz/LDM">Source code</a>
       </div>
-      <p class="meta">Version 0.3.0 · Fedora, Debian, Ubuntu, Arch and Flatpak · MIT license</p>
+      <p class="meta">Version 0.4.0 · Fedora, Debian, Ubuntu, Arch and Flatpak · MIT license</p>
     </div>
     <div class="shot">
       <picture>
@@ -192,36 +192,36 @@
         <div class="panel" role="tabpanel" id="panel-fedora" aria-labelledby="tab-fedora">
           <h3>Fedora 43 and 44</h3>
           <p>Download the package and install it; dnf fetches the rest.</p>
-          <div class="downloads"><a href="https://github.com/adiashishz/LDM/releases/download/v0.3.0/ldm-downloader-0.3.0-1.fc44.noarch.rpm">Download .rpm</a></div>
-          <div class="terminal"><code>sudo dnf install ./ldm-downloader-0.3.0-1.fc44.noarch.rpm</code><button type="button">Copy</button></div>
+          <div class="downloads"><a href="https://github.com/adiashishz/LDM/releases/download/v0.4.0/ldm-downloader-0.4.0-1.fc44.noarch.rpm">Download .rpm</a></div>
+          <div class="terminal"><code>sudo dnf install ./ldm-downloader-0.4.0-1.fc44.noarch.rpm</code><button type="button">Copy</button></div>
         </div>
         <div class="panel" role="tabpanel" id="panel-ubuntu" aria-labelledby="tab-ubuntu" hidden>
           <h3>Ubuntu 26.04</h3>
           <p>Download the package and install it; apt fetches the rest. It brings a current yt-dlp, so YouTube works from the start. Ubuntu 24.04 and Linux Mint 22 don't have the Qt libraries LDM needs: use the Flatpak there.</p>
-          <div class="downloads"><a href="https://github.com/adiashishz/LDM/releases/download/v0.3.0/ldm-downloader_0.3.0-1.ubuntu26.04_all.deb">Download .deb</a></div>
-          <div class="terminal"><code>sudo apt install ./ldm-downloader_0.3.0-1.ubuntu26.04_all.deb</code><button type="button">Copy</button></div>
+          <div class="downloads"><a href="https://github.com/adiashishz/LDM/releases/download/v0.4.0/ldm-downloader_0.4.0-1.ubuntu26.04_all.deb">Download .deb</a></div>
+          <div class="terminal"><code>sudo apt install ./ldm-downloader_0.4.0-1.ubuntu26.04_all.deb</code><button type="button">Copy</button></div>
         </div>
         <div class="panel" role="tabpanel" id="panel-debian" aria-labelledby="tab-debian" hidden>
           <h3>Debian 13</h3>
           <p>Download the package and install it; apt fetches the rest. Debian 12 can use the Flatpak.</p>
-          <div class="downloads"><a href="https://github.com/adiashishz/LDM/releases/download/v0.3.0/ldm-downloader_0.3.0-1.deb13_all.deb">Download .deb</a></div>
-          <div class="terminal"><code>sudo apt install ./ldm-downloader_0.3.0-1.deb13_all.deb</code><button type="button">Copy</button></div>
+          <div class="downloads"><a href="https://github.com/adiashishz/LDM/releases/download/v0.4.0/ldm-downloader_0.4.0-1.deb13_all.deb">Download .deb</a></div>
+          <div class="terminal"><code>sudo apt install ./ldm-downloader_0.4.0-1.deb13_all.deb</code><button type="button">Copy</button></div>
         </div>
         <div class="panel" role="tabpanel" id="panel-arch" aria-labelledby="tab-arch" hidden>
           <h3>Arch Linux, Manjaro, EndeavourOS</h3>
           <p>Build the package from the release's PKGBUILD; makepkg installs the dependencies.</p>
-          <div class="terminal"><code>curl -LO https://github.com/adiashishz/LDM/releases/download/v0.3.0/PKGBUILD &amp;&amp; makepkg -si</code><button type="button">Copy</button></div>
+          <div class="terminal"><code>curl -LO https://github.com/adiashishz/LDM/releases/download/v0.4.0/PKGBUILD &amp;&amp; makepkg -si</code><button type="button">Copy</button></div>
         </div>
         <div class="panel" role="tabpanel" id="panel-flatpak" aria-labelledby="tab-flatpak" hidden>
           <h3>Any other distribution</h3>
           <p>The Flatpak saves to your Downloads folder; choosing another folder in LDM gives it access to that one.</p>
-          <div class="downloads"><a href="https://github.com/adiashishz/LDM/releases/download/v0.3.0/ldm-downloader-0.3.0-x86_64.flatpak">Download .flatpak</a></div>
-          <div class="terminal"><code>flatpak install --user ./ldm-downloader-0.3.0-x86_64.flatpak</code><button type="button">Copy</button></div>
+          <div class="downloads"><a href="https://github.com/adiashishz/LDM/releases/download/v0.4.0/ldm-downloader-0.4.0-x86_64.flatpak">Download .flatpak</a></div>
+          <div class="terminal"><code>flatpak install --user ./ldm-downloader-0.4.0-x86_64.flatpak</code><button type="button">Copy</button></div>
         </div>
       </div>
       <p>Then, once: <code>ldm install-browser-integration</code> for magnet links and the browser extension
         (as a Flatpak: <code>flatpak run --command=ldm io.github.adiashishz.LDM install-browser-integration</code>).
-        Checksums are in <a href="https://github.com/adiashishz/LDM/releases/download/v0.3.0/SHA256SUMS">SHA256SUMS</a>.</p>
+        Checksums are in <a href="https://github.com/adiashishz/LDM/releases/download/v0.4.0/SHA256SUMS">SHA256SUMS</a>.</p>
     </div>
   </section>
 
@@ -230,9 +230,9 @@
       <h2>Browser extension</h2>
       <p>Clicks on download links go to LDM with the browser's cookies, so sign-in downloads work. On a video page, it lists the streams it found.</p>
       <div class="stores">
-        <a class="card" href="https://github.com/adiashishz/LDM/releases/download/v0.3.0/ldm-firefox-0.3.0.zip"><strong>Firefox</strong><span>Download the zip, then about:debugging → Load Temporary Add-on</span></a>
-        <a class="card" href="https://github.com/adiashishz/LDM/releases/download/v0.3.0/ldm-chromium-0.3.0.zip"><strong>Chrome</strong><span>Download and unzip, then Developer mode → Load unpacked</span></a>
-        <a class="card" href="https://github.com/adiashishz/LDM/releases/download/v0.3.0/ldm-chromium-0.3.0.zip"><strong>Brave</strong><span>The Chrome zip: unzip, then Developer mode → Load unpacked</span></a>
+        <a class="card" href="https://github.com/adiashishz/LDM/releases/download/v0.4.0/ldm-firefox-0.4.0.zip"><strong>Firefox</strong><span>Download the zip, then about:debugging → Load Temporary Add-on</span></a>
+        <a class="card" href="https://github.com/adiashishz/LDM/releases/download/v0.4.0/ldm-chromium-0.4.0.zip"><strong>Chrome</strong><span>Download and unzip, then Developer mode → Load unpacked</span></a>
+        <a class="card" href="https://github.com/adiashishz/LDM/releases/download/v0.4.0/ldm-chromium-0.4.0.zip"><strong>Brave</strong><span>The Chrome zip: unzip, then Developer mode → Load unpacked</span></a>
       </div>
     </div>
   </section>
@@ -250,7 +250,7 @@
 </main>
 
 <footer>
-  <span>LDM 0.3.0 · MIT license</span>
+  <span>LDM 0.4.0 · MIT license</span>
   <a href="https://github.com/adiashishz/LDM">GitHub</a>
   <a href="https://github.com/adiashishz/LDM/issues">Report a problem</a>
   <a href="https://github.com/adiashishz/LDM/releases">Release notes</a>
